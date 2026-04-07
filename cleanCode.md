@@ -24,4 +24,22 @@ Make the deadline, you should think about to make code as clean as possible at a
 - clean code is built on simple abstraction early than later. 
 - clean code does only one thing. Do not take all the responsiblity. 
 
-## Meaningful Names.
+### Meaningful Names.
+In my opinion, it is best to use AI agent to name variable, functions, classes and everything. Because they are better than humans at it. 
+Giving a good, expressive name avoid writing complex comments. 
+
+- Use Intention-Revealing Names
+- Avoid Disinformation
+- Make Meaningful Distinctions
+- Use Pronounceable Names
+- Use Searchable Names
+- Avoid Encodings
+- Member Prefixes
+- Avoid Mental Mapping
+class name should be noun, methods shoulde be verb. 
+- Pick One Word per Concept.
+- Don’t Pun.
+- Use Solution Domain Names.
+- Use Problem Domain Names.
+- Don’t Add Gratuitous Context.
+
