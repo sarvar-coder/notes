@@ -36,10 +36,40 @@ Giving a good, expressive name avoid writing complex comments.
 - Avoid Encodings
 - Member Prefixes
 - Avoid Mental Mapping
-class name should be noun, methods shoulde be verb. 
+- class name should be noun, methods shoulde be verb. 
 - Pick One Word per Concept.
 - Don’t Pun.
 - Use Solution Domain Names.
 - Use Problem Domain Names.
 - Don’t Add Gratuitous Context.
+
+### Functions 
+Funstions are core of every programs. When you make your function good, your program will be good. 
+First when you name your function, it should do exactly that you name it. 
+- small 
+
+Small functions always are better, because they are easy to look up, examine and even debugging. 
+
+- Do One Thing
+
+One function must do only one thing at time. It should not fetch, manipulate and save at time. 
+
+- One Level of Abstraction per Function.
+- Reading Code from Top to Bottom: The Stepdown Rule.
+- Switch Statements.
+- Use Descriptive Names.
+- Function Arguments.
+- Common Monadic Forms.
+- Flag Arguments.
+- Dyadic Functions. 
+- Triads.
+- Argument Objects.
+- Argument Lists. 
+- Verbs and Keywords. 
+- Have No Side Effects. 
+- Output Arguments. 
+- Command Query Separation.
+- Prefer Exceptions to Returning Error Codes.
+- Error Handling Is One Thing. 
+- Structured Programming.
 
