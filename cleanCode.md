@@ -4,9 +4,9 @@
 - section 2 is about cases that are needed to refactor and debugging. 
 - section 2 is about us because we take action to correct bad codes. 
 
-## Section 1. 
+ 
 
-### 1 - Clean Code. 
+## 1 - Clean Code. 
 Bad code becomes when you are in a rush to production. Adding more features to the app before make good the previous ones.
 Owning a mess can decrease the productivity over the course of time. Also Code base will be redesigned. It requires more developers to engage. 
 Developers are responsible for good code. Not a schedule, marketing types, users and managers. These will not be execuses for their code. Do not blame others. 
@@ -24,7 +24,7 @@ Make the deadline, you should think about to make code as clean as possible at a
 - clean code is built on simple abstraction early than later. 
 - clean code does only one thing. Do not take all the responsiblity. 
 
-### Meaningful Names.
+## 2 - Meaningful Names.
 In my opinion, it is best to use AI agent to name variable, functions, classes and everything. Because they are better than humans at it. 
 Giving a good, expressive name avoid writing complex comments. 
 
@@ -43,7 +43,7 @@ Giving a good, expressive name avoid writing complex comments.
 - Use Problem Domain Names.
 - Don’t Add Gratuitous Context.
 
-### Functions 
+## 3 - Functions 
 Funstions are core of every programs. When you make your function good, your program will be good. 
 First when you name your function, it should do exactly that you name it. 
 - small 
@@ -73,3 +73,20 @@ One function must do only one thing at time. It should not fetch, manipulate and
 - Error Handling Is One Thing. 
 - Structured Programming.
 
+## 4 - Comments. 
+Comments actually are for bad code. When you had written code and realized a mess. You would use comment, 
+However the brilliant code is with a fewer comment. It is best to clean up your code rather than using comments.
+Keep in mind, however, that the only truly good comment is the
+comment you found a way not to write.
+
+- Comments Do Not Make Up for Bad Code. 
+- Explanation of Intent. 
+- Clarification. 
+- Warning of Consequences.
+- TODO Comments.
+- Mumbling. bad comments
+- Redundant Comments. bad comments. 
+- Misleading Comments. bad.
+- Mandated Comments. bad. 
+- Commented-Out Code. bad. 
+ 
