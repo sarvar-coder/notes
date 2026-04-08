@@ -89,4 +89,12 @@ comment you found a way not to write.
 - Misleading Comments. bad.
 - Mandated Comments. bad. 
 - Commented-Out Code. bad. 
+
+## 5 - Formatting. 
+When it comes to formatting in a team. All members have to discuss to use what formatting style and they must imply this formatting rule. 
+
+- Vertical Formatting. 
+- The Newspaper Metaphor. 
+- Vertical Openness Between Concepts. 
+- Vertical Density. 
  
