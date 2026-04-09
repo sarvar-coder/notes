@@ -119,3 +119,17 @@ so we prefer objects for that part of the system. Other times we will want the f
 add new behaviors, and so in that part of the system we prefer data types and procedures.
 Good software developers understand these issues without prejudice and choose the
 approach that is best for the job at hand.
+
+##  7 - Error Handling. 
+In short, things can go wrong, and when they do, we as programmers are responsible for making sure that our code 
+does what it needs to do.
+
+- Use Exceptions Rather Than Return Codes.
+- Write Your Try-Catch-Finally Statement First.
+- Use Unchecked Exceptions.
+- Provide Context with Exceptions. 
+- Define Exception Classes in Terms of a Caller’s Needs. 
+- Define the Normal Flow.
+- Don’t Return Null. 
+- Don’t Pass Null. 
+
