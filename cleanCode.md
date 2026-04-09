@@ -133,3 +133,25 @@ does what it needs to do.
 - Don’t Return Null. 
 - Don’t Pass Null. 
 
+## 8 - Boundaries.
+- Using Third-Party Code.
+- Using Code That Does Not Yet Exist.
+When we want to use third party library in our project. We should write test, wait.. TEST!. You could say Testing 
+3 rd part library is not our job, yeah you are right. But It helps us to learn the 3 rd party library and it costs 
+nothing to us. So, it is called Learning Test. 
+
+### Clean Boundaries 
+Interesting things happen at boundaries. Change is one of those things. Good software
+designs accommodate change without huge investments and rework. When we use code
+that is out of our control, special care must be taken to protect our investment and make
+sure future change is not too costly.
+Code at the boundaries needs clear separation and tests that define expectations. We
+should avoid letting too much of our code know about the third-party particulars. It’s better
+to depend on something you control than on something you don’t control, lest it end up
+controlling you.
+We manage third-party boundaries by having very few places in the code that refer to
+them. We may wrap them as we did with Map, or we may use an ADAPTER to convert from
+our perfect interface to the provided interface. Either way our code speaks to us better,
+promotes internally consistent usage across the boundary, and has fewer maintenance
+points when the third-party code changes.
+
