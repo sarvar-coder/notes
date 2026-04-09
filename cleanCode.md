@@ -98,3 +98,24 @@ When it comes to formatting in a team. All members have to discuss to use what f
 - Vertical Openness Between Concepts. 
 - Vertical Density. 
  
+## 6 - Objects and Data Structures. 
+- Hiding implementation is about abstractions!
+- Objects hidetheir data behind abstractions and expose functions that operate on that data.
+- Data structure expose their data and have no meaningful functions
+
+ Procedural code makes it hard to add new data structures because all the functions mustchange. OO code makes it hard to add new functions because all the classes must change.
+ So, the things that are hard for OO are easy for procedures, and the things that are
+hard for procedures are easy for OO!
+
+- The Law of Demeter.
+
+Objects expose behavior and hide data. This makes it easy to add new kinds of objects
+without changing existing behaviors. It also makes it hard to add new behaviors to existing
+objects. Data structures expose data and have no significant behavior. This makes it easy to
+add new behaviors to existing data structures but makes it hard to add new data structures
+to existing functions.
+In any given system we will sometimes want the flexibility to add new data types, and
+so we prefer objects for that part of the system. Other times we will want the flexibility to
+add new behaviors, and so in that part of the system we prefer data types and procedures.
+Good software developers understand these issues without prejudice and choose the
+approach that is best for the job at hand.
