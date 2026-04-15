@@ -140,7 +140,8 @@ When we want to use third party library in our project. We should write test, wa
 3 rd part library is not our job, yeah you are right. But It helps us to learn the 3 rd party library and it costs 
 nothing to us. So, it is called Learning Test. 
 
-### Clean Boundaries 
+ Clean Boundaries.
+ 
 Interesting things happen at boundaries. Change is one of those things. Good software
 designs accommodate change without huge investments and rework. When we use code
 that is out of our control, special care must be taken to protect our investment and make
@@ -155,3 +156,21 @@ our perfect interface to the provided interface. Either way our code speaks to u
 promotes internally consistent usage across the boundary, and has fewer maintenance
 points when the third-party code changes.
 
+## 9 - Unit tests. 
+
+- The Three Laws of TDD. 
+
+1. You may not write production code until you have written a failing unit test.
+
+2. You may not write more of a unit test than is sufficient to fail, and not com-
+piling is failing.
+
+
+3. You may not write more production code than is sufficient to pass the cur-
+rently failing test.
+
+- Tests Enable the -ilities. 
+- Clean Tests. 
+- Domain-Specific Testing Language. 
+- One Assert per Test. 
+- Single Concept per Test. 
