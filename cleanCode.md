@@ -174,3 +174,14 @@ rently failing test.
 - Domain-Specific Testing Language. 
 - One Assert per Test. 
 - Single Concept per Test. 
+
+## Classes
+
+- Class Organization. 
+- Encapsulation.
+- Classes Should Be Small!
+- The Single Responsibility Principle.
+- Cohesion.
+- Maintaining Cohesion Results in Many Small Classes. 
+- Organizing for Change.
+- Isolating from Change.
