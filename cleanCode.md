@@ -175,7 +175,7 @@ rently failing test.
 - One Assert per Test. 
 - Single Concept per Test. 
 
-## Classes
+## 10 - Classes
 
 - Class Organization. 
 - Encapsulation.
@@ -185,3 +185,23 @@ rently failing test.
 - Maintaining Cohesion Results in Many Small Classes. 
 - Organizing for Change.
 - Isolating from Change.
+
+## 11 - Systems.
+
+How would you build cities? 
+
+Even managing existing cities is too much responsibility for one person. However, cites work most of the time. 
+Because they have teams responsible for particular part of the cities. 
+
+In programming world is so that. 
+
+- Separate Constructing a System from Using It.
+- Separation of Main. 
+- Dependency Injection. 
+- Cross-Cutting Concerns. 
+- Java Proxies. 
+- Pure Java AOP Frameworks. 
+- AspectJ Aspects. 
+- Test Drive the System Architecture. 
+- Optimize Decision Making.
+- Systems Need Domain-Specific Languages.
