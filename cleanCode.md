@@ -205,3 +205,12 @@ In programming world is so that.
 - Test Drive the System Architecture. 
 - Optimize Decision Making.
 - Systems Need Domain-Specific Languages.
+
+## 12 - Emergence.
+Design is simple if it follows these rules.  dd
+
+- Runs all the tests.
+- Contains no duplication.
+- Expresses the intent of the programmer.
+- Minimizes the number of classes and methods.
+
