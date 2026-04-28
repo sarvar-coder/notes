@@ -214,3 +214,19 @@ Design is simple if it follows these rules.  dd
 - Expresses the intent of the programmer.
 - Minimizes the number of classes and methods.
 
+
+## 13 - Concurency
+
+- Concurrency Defense Principles
+- Single Responsibility Principle.
+Recommendation: Keep your concurrency-related code separate from other code.
+- Corollary: Limit the Scope of Data
+Recommendation: Take data encapsulation to heart; severely limit the access of any
+data that may be shared.
+- Corollary: Use Copies of Data. 
+- Corollary: Threads Should Be as Independent as Possible.
+Recommendation: Attempt to partition data into independent subsets than can be
+operated on by independent threads, possibly in different processors.
+
+
+
